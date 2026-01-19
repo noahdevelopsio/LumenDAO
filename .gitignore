@@ -1,20 +1,25 @@
-# Node modules
-/node_modules
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log*
 
-# Compilation output
-/dist
+# Hardhat
+artifacts/
+cache/
+coverage/
+cov/
+typechain-types/
+.env
+.opendzeppelin/
 
-# pnpm deploy output
-/bundle
+# Frontend
+client/node_modules/
+client/dist/
+client/.env
+client/.env.local
+.DS_Store
 
-# Hardhat Build Artifacts
-/artifacts
-
-# Hardhat compilation (v2) support directory
-/cache
-
-# Typechain output
-/types
-
-# Hardhat coverage reports
-/coverage
+# IDE
+.vscode/
+.idea/
